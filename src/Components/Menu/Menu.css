@@ -1,0 +1,13 @@
+.menu {
+    border: 2px solid green;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlink {
+    border: 1px solid orange;
+}

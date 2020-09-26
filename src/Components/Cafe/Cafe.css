@@ -1,0 +1,11 @@
+.cafe-ingredients {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category {
+    border: 2px solid orange;
+    width: fit-content;
+}
