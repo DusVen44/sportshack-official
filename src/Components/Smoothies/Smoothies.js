@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Smoothies.css';
+import { SmoothiesContext } from '../../SmoothiesContext';
 
 export default function Smoothies() {
+    const { smoothies20, smoothies32 } = useContext(SmoothiesContext);
+    console.log(smoothies20);
+    console.log(smoothies32);
     return (
         <div className="smoothies-page">
             <section className="smoothies-heading">
@@ -28,25 +32,16 @@ export default function Smoothies() {
                 flavor in every size.
             </p>
 
-            <section className="smoothies-list">
-                <div className="smoothie">
-                    <h3 className="smoothie-name">
-                        Banana Cream Pie
-                    </h3>
-                    <h4 className="nutrition-facts">
-                        <p>Serving Size: 20oz</p>
-                        <p>Calories: 395</p>
-                        <p>Total Fat 2.5g</p>
-                        <p>Saturated Fat: 0g</p>
-                        <p>Trans Fat: 0g</p>
-                        <p>Cholesterol 9.5mg</p>
-                        <p>Total Carbohydrate: 54.5g</p>
-                        <p>Dietary Fiber: 4.5g</p>
-                        <p>Sugars: 24.5g</p>
-                        <p>Protein: 38.5g</p>
-                    </h4>
-                </div>
-            </section>
+            {/* <section className="smoothies-list">
+                {smoothies.map(smoothie => {
+                    return (
+                        <div className="smoothie">
+                            <h1>{smoothie.flavor}</h1>
+                        </div>
+                    )
+                })}
+                
+            </section> */}
         </div>
     )
 }

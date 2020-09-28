@@ -7,12 +7,15 @@ import Cafe from '../Cafe/Cafe';
 import Supplements from '../Supplements/Supplements';
 import Gear from '../Gear/Gear';
 import Contact from '../Contact/Contact';
+import SmoothiesContextProvider from '../../SmoothiesContext';
 
 export default function MainContainer() {
     return (
         <div className="main-container">
             <Route exact path='/' component={Home} />
-            <Route path='/smoothies' component={Smoothies} />
+            <SmoothiesContextProvider>
+                <Route path='/smoothies' component={Smoothies} />
+            </SmoothiesContextProvider>
             <Route path='/cafe' component={Cafe} />
             <Route path='/vitamins-and-supplements' component={Supplements} />
             <Route path='/gear' component={Gear} />
