@@ -4,14 +4,35 @@ import Header from './Components/Header/Header';
 import Menu from './Components/Menu/Menu';
 import MainContainer from './Components/MainContainer/MainContainer';
 import Footer from './Components/Footer/Footer';
+import Media from 'react-media';
+import Burger from './Components/Burger/Burger';
 
 function App() {
   return (
     <div className="App">
+      <Media
+        query="(max-width: 999px)"
+        render={() =>
+        (
+          <Burger />
+        )}
+      />
       <Header />
-      <Menu />
+      <Media 
+        query="(min-width: 1000px)"
+        render={() =>
+        (
+          <Menu />
+        )}
+      />
       <MainContainer />
-      <Menu />
+      <Media 
+        query="(min-width: 1000px)"
+        render={() =>
+        (
+          <Menu />
+        )}
+      />
       <Footer />
     </div>
   );

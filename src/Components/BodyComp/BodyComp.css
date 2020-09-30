@@ -1,0 +1,25 @@
+.body-comp-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-comp-pics {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-pic {
+    width: 90%;
+}
+
+@media screen and (min-width: 800px) {
+    .body-comp-pics {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .body-pic {
+        width: 45%;
+    }
+}

@@ -1,0 +1,11 @@
+export const fuelx30 = require('../images/protein/fuelx30.png');
+export const hexapro = require('../images/protein/hexapro.png');
+export const isoFit = require('../images/protein/iso-fit.png');
+export const isoSurge = require('../images/protein/iso-surge.png');
+export const iso100 = require('../images/protein/iso100.png');
+export const mutantMass = require('../images/protein/mutant-mass.png');
+export const plantBased = require('../images/protein/plant-based.png');
+export const quickMass = require('../images/protein/quick-mass.png');
+export const seriousMass = require('../images/protein/serious-mass.png');
+export const superMass = require('../images/protein/super-mass.png');
+export const trutein = require('../images/protein/trutein.png');

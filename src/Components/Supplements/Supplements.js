@@ -1,5 +1,20 @@
 import React from 'react';
 import './Supplements.css';
+import Gallery from '../Gallery/Gallery';
+import { animalPak, vitastack } from '../../Stores/vitaminSTORE';
+import { pre620, bamf, bucked, cuts, nitraflex, psychotic, sharp, tone, totalWar, woke } from '../../Stores/preSTORE';
+import { allDayYouMay, aminoCuts, extend } from '../../Stores/BCAASTORE';
+import { boneafide, leanfx, lipodreneElite, lipodrene, sharpfx, shredabull, tnt } from '../../Stores/fatBurnerSTORE';
+import { allMax, concret, kre, nitrocell } from '../../Stores/creatineSTORE';
+import { liverPlus, organDefender, organShield } from '../../Stores/organSTORE';
+import { baf, goliath, mammoth, raf, shredMatrix, tightToneHer, tightTone } from '../../Stores/stackSTORE';
+import { dim, hydraLean, muscleTest, pctElite, testMd } from '../../Stores/pctSTORE';
+import { adrenolyn, bigNoise, full, noxygen, plasma, pumpocalypse } from '../../Stores/pumpSTORE';
+import { lightsOut, sedative, somatomax } from '../../Stores/sleepSTORE';
+import { cyto, grazed, superGreens } from '../../Stores/greenStore';
+import { carbion, karbolyn } from '../../Stores/carbSTORE';
+import { gButter, meat, one, quest } from '../../Stores/foodSTORE';
+import { d3, bang, c4 } from '../../Stores/energySTORE';
 
 export default function Supplements() {
     return (
@@ -27,72 +42,98 @@ export default function Supplements() {
                     <h2 className="supplement-type">
                         Vitamins
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
-                </div>
-
-                <div className="supplement-box">
-                    <h2 className="supplement-type">
-                        Protein
-                    </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[animalPak, vitastack]}/>
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
                         Pre-Workout
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[pre620, bamf, bucked, cuts, nitraflex, psychotic, sharp, tone, totalWar, woke]}/>
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
-                        Pro-Hormones
+                        BCAAs
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[allDayYouMay, aminoCuts, extend]} />
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
-                        Testosterone Boosters
+                        Fat Burners
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[boneafide, leanfx, lipodrene, lipodreneElite, sharpfx, shredabull, tnt]} />
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
-                        Protein Bars
+                        Creatine
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[allMax, concret, kre, nitrocell]} />
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
-                        Energy Boosters
+                        Organ Protection
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[liverPlus, organDefender, organShield]} />
                 </div>
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
-                        Weight Gainers
+                        Anabolic Edge Stacks
                     </h2>
-                    <div className="supplement-pics">
-                        <p>Here will be a gallery of featured products</p>
-                    </div>
+                    <Gallery pics={[baf, goliath, mammoth, raf, shredMatrix, tightToneHer, tightTone]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        PCT & Test Boosters
+                    </h2>
+                    <Gallery pics={[dim, hydraLean, muscleTest, pctElite, testMd]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Pump Agents
+                    </h2>
+                    <Gallery pics={[adrenolyn, bigNoise, full, noxygen, plasma, pumpocalypse]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Sleep Aids
+                    </h2>
+                    <Gallery pics={[lightsOut, sedative, somatomax]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Greens
+                    </h2>
+                    <Gallery pics={[cyto, grazed, superGreens]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Carbs
+                    </h2>
+                    <Gallery pics={[carbion, karbolyn]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Protein Bars & Food
+                    </h2>
+                    <Gallery pics={[gButter, meat, one, quest]} />
+                </div>
+
+                <div className="supplement-box">
+                    <h2 className="supplement-type">
+                        Energy Drinks
+                    </h2>
+                    <Gallery pics={[d3, bang, c4]} />
                 </div>
             </section>
         </div>

@@ -1,14 +1,14 @@
 import React, { useContext } from 'react';
 import './Smoothies.css';
 import { SmoothiesContext } from '../../SmoothiesContext';
+import SmoothieNutrition from'../SmoothieNutrition/SmoothieNutrition';
 
 export default function Smoothies() {
     const { smoothies20, smoothies32 } = useContext(SmoothiesContext);
-    console.log(smoothies20);
-    console.log(smoothies32);
+    // console.log(smoothies32);
     return (
         <div className="smoothies-page">
-            <section className="smoothies-heading">
+            <section className="smoothies-page-heading">
                 <h1>Smoothies</h1>
                 <h3>Refuel After Your Workout</h3>
             </section>
@@ -28,20 +28,30 @@ export default function Smoothies() {
                 </p>
             </section>
 
-            <p>Below will be the full list of smoothies. This is where the API call will happen, and I will list every
-                flavor in every size.
-            </p>
+            <section className="smoothie-sizes">
+                <h1>20oz Smoothies</h1>
+                <h1>32oz Smoothies</h1>
+            </section>
 
-            {/* <section className="smoothies-list">
-                {smoothies.map(smoothie => {
-                    return (
-                        <div className="smoothie">
-                            <h1>{smoothie.flavor}</h1>
-                        </div>
-                    )
-                })}
-                
-            </section> */}
+            <section className="smoothies-section">
+                <div className="smoothies20-list">
+                    {/* <h1 className="smoothie-heading">20oz Smoothies</h1> */}
+                    {smoothies20.smoothies20 && smoothies20.smoothies20.map(smoothie => {
+                        return (
+                            <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
+                        )
+                    })}
+                </div>
+
+                <div className="smoothies32-list">
+                    {/* <h1 className="smoothie-heading">32oz Smoothies</h1> */}
+                    {smoothies32.smoothies32 && smoothies32.smoothies32.map(smoothie => {
+                        return (
+                            <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
+                        )
+                    })}
+                </div>
+            </section>
         </div>
     )
 }

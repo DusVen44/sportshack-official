@@ -1,3 +1,30 @@
+.smoothies-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .gear-gallery {
     border: 2px solid magenta;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bottles-pic {
+    width: 30%;
+}
+
+.small-pack-pic {
+    width: 50%;
+    height: 100%;
+}
+
+.large-pack-pic {
+    width: 45%;
+}
+
+.shirts-pic {
+    width: 45%;
 }

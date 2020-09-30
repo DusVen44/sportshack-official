@@ -1,0 +1,4 @@
+.info-and-map {
+    display: flex;
+    flex-direction: column;
+}

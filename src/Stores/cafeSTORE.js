@@ -1,0 +1,11 @@
+export const cafeRoom = require('../images/cafe/cafe-room.png');
+export const noah = require('../images/cafe/noah.png');
+export const wrap1 = require('../images/cafe/wrap1.png');
+export const wrap2 = require('../images/cafe/wrap2.png');
+export const wrap3 = require('../images/cafe/wrap3.png');
+export const wrap4 = require('../images/cafe/wrap4.png');
+export const wrap5 = require('../images/cafe/wrap5.png');
+export const wrap6 = require('../images/cafe/wrap6.png');
+export const wrap7 = require('../images/cafe/wrap7.png');
+export const wrap8 = require('../images/cafe/wrap8.png');
+export const wrap9 = require('../images/cafe/wrap9.png');

@@ -1,4 +1,4 @@
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useLayoutEffect } from 'react';
 import config from './config';
 
 export const SmoothiesContext = createContext();
@@ -7,7 +7,7 @@ const SmoothiesContextProvider = (props) => {
     const [smoothies20, setSmoothies20 ] = useState([]);
     const [smoothies32, setSmoothies32 ] = useState([]);
 
-    useEffect(() => {
+    useLayoutEffect(() => {
       Promise.all([
         fetch(`${config.API_ENDPOINT}/api/smoothies20`),
         fetch(`${config.API_ENDPOINT}/api/smoothies32`)
@@ -17,6 +17,8 @@ const SmoothiesContextProvider = (props) => {
                 return res20.json().then(e => Promise.reject(e));
             if (!res32.ok)
                 return res32.json().then(e => Promise.reject(e));
+
+            return Promise.all([res20.json(), res32.json()])
         })
         .then(([res20, res32]) => {
             setSmoothies20({
@@ -33,7 +35,7 @@ const SmoothiesContextProvider = (props) => {
     }, [setSmoothies20, setSmoothies32]);
 
     return (
-        <SmoothiesContext.Provider value={{smoothies20}}>
+        <SmoothiesContext.Provider value={{smoothies20, smoothies32}}>
             {props.children}
         </SmoothiesContext.Provider>
     )

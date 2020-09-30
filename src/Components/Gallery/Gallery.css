@@ -1,0 +1,9 @@
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    width: 10%;
+}

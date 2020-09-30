@@ -1,0 +1,23 @@
+.cafe-pics-box {
+    border: 2px solid fuchsia;
+}
+
+.room-and-noah {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cafe-main-pic {
+    width: 45%;
+}
+
+.wraps-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wrap-pic {
+    width: 30%;
+}

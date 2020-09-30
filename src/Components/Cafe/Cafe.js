@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cafe.css';
+import CafePics from '../CafePics/CafePics';
 
 export default function Cafe() {
     return (
@@ -10,11 +11,20 @@ export default function Cafe() {
             </section>
 
             <section className="cafe-intro-box">
-                <p className="cafe-intro">
+                <p className="cafe-intro1">
                     Starting at only $5.99, you can create your own panini or wrap. Choose your bread, meat, cheese,
-                    veggies, and sauce. Your food will be freshly-made by our team member and served to your quickly.
+                    veggies, and sauce. Your food will be freshly-made by our team member and served to your quickly. 
+                    Breadless options are available.
+                </p>
+                
+                <p className="cafe-into2">
+                    To see more of these insanely delicious wraps, follow <a href="https://www.instagram.com/custom_honey_wraps/" target="_blank" rel="noopener noreferrer">Custom Honey Wraps</a> on Instagram.
                 </p>
             </section>
+
+            <div>
+                <CafePics />
+            </div>
 
             <section className="cafe-ingredients">
                 <div className="breads-and-wraps category">

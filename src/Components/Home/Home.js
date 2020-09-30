@@ -1,10 +1,11 @@
 import React from 'react';
 import './Home.css';
+import InfoBox from '../InfoBox/InfoBox';
+import Map from '../Map/Map';
 
 export default function Home() {
     return (
-        <div className="home">
-
+        <div className="home-page">
             <p className="home-intro">
                 Sportshack Supplement Depot is Lafayette's #1 nutrition store to help you accomplish all of your 
                 health goals. Whether you're looking to achieve peak athletic performance or just want to lose a 
@@ -40,9 +41,11 @@ export default function Home() {
 
                 <h3 className="answer">Personal Trainers</h3>
                 <p className="why">We have exactly what you need to build the perfect diet and training program for your 
-                    clients. Our Body Comp Analyzer will provide you with a complete breakdown of your client's current
-                    physical and metabolic state. After viewing body fat %, basal metabolic rate, and mass distribution, 
-                    you will create the best possible custom-made program for your client.
+                    clients. Our <a href='/body-comp-analyzer'>Body Comp Analyzer</a> will provide you with a complete 
+                    breakdown of your client's current physical and metabolic state. After viewing body fat %, basal 
+                    metabolic rate, and mass distribution, you will create the best possible custom-made program for 
+                    your client. Sportshack also has the VIP Trainers Program. Talk to a team member about joining the
+                    program so you and your clients can save big on all of our products.
                 </p>
 
                 <h3 className="answer">Everyone on Lunch Break</h3>
@@ -59,7 +62,8 @@ export default function Home() {
             </section>
 
             <section className="info-and-map">
-                <h3>This is where addresss, phone number, and hours will be. Also, a picture of the location on a map.</h3>
+                <InfoBox />
+                <Map />
             </section>
         </div>
     )
