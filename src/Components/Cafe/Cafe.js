@@ -17,7 +17,7 @@ export default function Cafe() {
                     Breadless options are available.
                 </p>
                 
-                <p className="cafe-into2">
+                <p className="cafe-intro2">
                     To see more of these insanely delicious wraps, follow <a href="https://www.instagram.com/custom_honey_wraps/" target="_blank" rel="noopener noreferrer">Custom Honey Wraps</a> on Instagram.
                 </p>
             </section>

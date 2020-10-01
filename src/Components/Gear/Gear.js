@@ -5,9 +5,9 @@ import { bottles, packLarge, packSmall, shirts } from '../../Stores/gearSTORE';
 export default function Gear() {
     return (
         <div className="gear-page">
-            <section className="smoothies-heading">
+            <section className="gear-heading">
                 <h1>Apparel & Accessories</h1>
-                <h3>Shirts - Shaker Bottles - Food Containers</h3>
+                <h3 className="gear-subheading">Shirts - Shaker Bottles - Food Containers</h3>
             </section>
 
             <section className="gear-intro-box">
@@ -20,10 +20,10 @@ export default function Gear() {
             </section>
 
             <section className="gear-gallery">
-                <img src={bottles} alt="shaker bottles" className="bottles-pic"></img>
-                <img src={packSmall} alt="small food container" className="small-pack-pic"></img>
-                <img src={packLarge} alt="large food container" className="large-pack-pic"></img>
-                <img src={shirts} alt="shirts" className="shirts-pic"></img>
+                <img src={bottles} alt="shaker bottles" className="bottles-pic gear-pic"></img>
+                <img src={packSmall} alt="small food container" className="small-pack-pic gear-pic"></img>
+                <img src={packLarge} alt="large food container" className="large-pack-pic gear-pic"></img>
+                <img src={shirts} alt="shirts" className="shirts-pic gear-pic"></img>
             </section>
         </div>
     )

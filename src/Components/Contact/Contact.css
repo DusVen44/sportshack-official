@@ -1,3 +1,15 @@
-.contact-box {
-    border: 2px solid red;
+.contact-page {
+    background-color: rgb(225, 225, 225);
+    box-shadow: 0px 0px 8px 10px rgb(225, 225, 225);
+    padding: 10px;
+    line-height: 1.4;
+}
+
+.contact-heading {
+    font-size: 25px;
+    color: #0CA01D;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
 }

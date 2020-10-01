@@ -1,11 +1,8 @@
-.cafe-pics-box {
-    border: 2px solid fuchsia;
-}
-
 .room-and-noah {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .cafe-main-pic {
@@ -19,5 +16,12 @@
 }
 
 .wrap-pic {
-    width: 30%;
+    width: 20%;
+    margin: 15px;
+    box-shadow: 0px 0px 8px 10px #0CA01D;
+}
+
+.wrap-pic:hover {
+    transition: 1s;
+    transform: scale(2);
 }

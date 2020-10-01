@@ -20,8 +20,8 @@ export default function Supplements() {
     return (
         <div className="supplements-page">
             <section className="supplements-heading">
-                <h1>Vitamins & Supplements</h1>
-                <h3>
+                <h1 className="supplements-title">Vitamins & Supplements</h1>
+                <h3 className="supplements-subheading">
                     Boost Your Immune System - Increase Energy - Bulk Up - Slim Down - Burn Fat - 
                     Get Stronger - Increase Testosterone
                 </h3>

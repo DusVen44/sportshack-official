@@ -1,15 +1,46 @@
+.supplements-page {
+    background-color: rgb(225, 225, 225);
+    box-shadow: 0px 0px 8px 10px rgb(225, 225, 225);
+    padding: 10px;
+    line-height: 1.4;
+}
+
 .supplements-heading {
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 25px;
+    color: #0CA01D;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.supplements-subheading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.supplements-intro1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.supplement-type {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 5px 3px black;
 }
 
 .supplement-box {
-    border: 4px solid pink;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #0CA01D;
+    box-shadow: 0px 0px 8px 10px white;
+    margin-bottom: 20px;
 }
 
 .supplement-pics {

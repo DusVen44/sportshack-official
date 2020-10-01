@@ -7,10 +7,10 @@ export default function Protein() {
     return (
         <div className="protein-page">
             <section className="protein-heading">
-                <h1>Protein</h1>
-                <h3>Want to build more muscle? You need more protein.</h3>
-                <h3>Want to burn more fat? You need more protein.</h3>
-                <h3>Want to recover quicker? You need more protein.</h3>
+                <h1 className="protein-title">Protein</h1>
+                <h3 className="protein-subheading">Want to build more muscle? You need more protein.</h3>
+                <h3 className="protein-subheading">Want to burn more fat? You need more protein.</h3>
+                <h3 className="protein-subheading">Want to recover quicker? You need more protein.</h3>
             </section>
 
             <section className="protein-intro-box">
@@ -24,17 +24,17 @@ export default function Protein() {
 
             <section className="protein-galleries">
                 <div className="protein-category">
-                    <h1>Whey Isolate and Blends</h1>
+                    <h1 className="protein-cat-title">Whey Isolate and Blends</h1>
                     <Gallery pics={[fuelx30, hexapro, isoFit, isoSurge, iso100, trutein]} />
                 </div>
 
                 <div className="protein-category">
-                    <h1>Mass Gainers</h1>
+                    <h1 className="protein-cat-title">Mass Gainers</h1>
                     <Gallery pics={[mutantMass, quickMass, seriousMass, superMass]} />
                 </div>
 
                 <div className="protein-category">
-                    <h1>Plant-Based</h1>
+                    <h1 className="protein-cat-title">Plant-Based</h1>
                     <img src={plantBased} alt="plant-based protein" className="plant-protein"></img>
                 </div>
             </section>

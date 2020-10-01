@@ -1,7 +1,37 @@
+.cafe-page {
+    background-color: rgb(225, 225, 225);
+    box-shadow: 0px 0px 8px 10px rgb(225, 225, 225);
+    padding: 10px;
+    line-height: 1.4;
+}
+
 .cafe-heading {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 25px;
+    color: #0CA01D;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.cafe-intro-box {
+    text-align: center;
+}
+
+.cafe-intro1 {
+    margin-bottom: 20px;
+}
+
+.cafe-intro2 {
+    margin-bottom: 20px;
+}
+
+.cafe-page a {
+    color: #0CA01D;
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .cafe-ingredients {
@@ -12,6 +42,36 @@
 }
 
 .category {
-    border: 2px solid orange;
+    background-color: #0CA01D;
+    border: 1px solid black;
     width: fit-content;
+    margin-top: 20px;
+    padding: 1px;
+}
+
+.ingredient-category {
+    text-align: center;
+    color: white;
+    text-shadow: 0px 3px 1px black;
+    margin-bottom: 5px;
+}
+
+.ingredient {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+    .category {
+        width: 30%;
+    }
+
+    .ingredient-category {
+        font-size: 30px;
+    }
+
+    .ingredient {
+        font-size: 20px;
+    }
 }

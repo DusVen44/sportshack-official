@@ -1,7 +1,23 @@
 .footer {
-    border: 3px solid red;
+    background-color: #0CA01D;
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 8px 5px white;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 19px;
+    color: white;
+    text-shadow: 0px 3px 3px black;
+}
+
+.icon {
+    font-size: 19px;
+    color: white;
 }

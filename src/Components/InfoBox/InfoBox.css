@@ -57,6 +57,8 @@
 
 .link-to-map {
     text-decoration: none;
+    font-weight: bold;
     padding: 10px;
     background: white;
+    box-shadow: 0px 0px 8px 5px black;
 }

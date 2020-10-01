@@ -7,7 +7,7 @@ export default function BodyComp() {
         <div className="body-comp-page">
             <section className="body-comp-heading">
                 <h1>Body Composition Analyzer</h1>
-                <h3>Discover your starting point - Track your progress - Crush your goals</h3>
+                <h3 className="body-subheading">Discover your starting point - Track your progress - Crush your goals</h3>
             </section>
 
             <section className="body-comp-intro-box">
