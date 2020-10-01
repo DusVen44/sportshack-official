@@ -1,8 +1,8 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: absolute;
-    width: 36px;
-    height: 30px;
+    width: 30px;
+    height: 25px;
     left: 10px;
     top: 10px;
 }
@@ -10,11 +10,13 @@
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
     background: black;
+    box-shadow: 0px 0px 5px 3px white;
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-    background: green;
+    background: white;
+    box-shadow: 0px 0px 5px 3px #0CA01D;
 }
 
 
@@ -29,28 +31,49 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-    background: #ffffff;
+    /* background: #0CA01D; */
+    background: linear-gradient(90deg, rgba(12,160,29,1) 0%, rgba(0,0,0,1) 100%);
     font-size: 1.15em;
     padding: 5%;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-    fill: #373a47;
+    fill: white;
 }
 
 /* Wrapper for item list */
 .bm-item-list {
-    color: #b8b7ad;
+    color: #ff0000;
     padding: 0.8em;
 }
 
 /* Individual item */
 .bm-item {
     display: inline-block;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: -5px 0px 8px rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(12,160,29,1) 100%);
+    margin-bottom: 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px 3px white;
+}
+
+.bm-item:visited {
+    color: white;
 }
 
 /* Styling of overlay */
 .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 800px) {
+    .bm-burger-button {
+        width: 40px;
+        height: 35px;
+    }
 }

@@ -1,29 +1,65 @@
 .header {
-    border: 1px solid red;
+    background-color: #0CA01D;
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     position: relative;
+    padding-top: 5px;
+    box-shadow: 0px 0px 8px 10px white;
 }
 
 .store-name {
-    border: 1px solid green;
+    font-family: 'Arbutus';
+    font-size: 19px;
+    color: white;
+    text-shadow: 0px 5px 3px black;
     width: fit-content;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .address-and-number {
-    border: 1px solid green;
+    color: black;
+    font-size: 12px;
     width: fit-content;
+    margin-left: 5px;
+}
+
+.address-and-number a:visited {
+    color: black;
+}
+
+.num-link {
+    color: white;
 }
 
 .hours {
-    border: 1px solid green;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
     width: fit-content;
     position: absolute;
-    right: 0;
+    right: 5px;
     bottom: 0;
+}
+
+@media screen and (min-width: 800px) {
+    .store-name {
+        font-size: 40px;
+    }
+
+    .address-and-number {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .hours {
+        font-size: 22px;
+        padding: 10px;
+    }
 }

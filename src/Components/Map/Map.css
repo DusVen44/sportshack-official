@@ -1,3 +1,8 @@
+.map-component {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .map-image {
-    width: 100%;
+    width: 80%;
 }

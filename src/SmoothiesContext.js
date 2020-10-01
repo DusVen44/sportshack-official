@@ -29,8 +29,7 @@ const SmoothiesContextProvider = (props) => {
             })
         })
         .catch(error => {
-            alert("Could not load smoothies", error)
-            console.log(error)
+            alert("Could not load the list of smoothies. Please refresh page to try again.", error)
         })
     }, [setSmoothies20, setSmoothies32]);
 

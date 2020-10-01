@@ -34,8 +34,8 @@ export default function BodyComp() {
             </section>
 
             <section className="body-comp-pics">
-                <img src={inbody} alt="inbody 370" className="body-pic"></img>
-                <img src={sheet} alt="results sheet" className="body-pic"></img>
+                <img src={inbody} className="body-pic" alt="inbody 370"></img>
+                <img src={sheet} className="body-pic" alt="results sheet"></img>
             </section>
             
         </div>

@@ -5,14 +5,19 @@ export default function Header() {
     return (
         <div className="header">
             <section className="store-name">
-                <h1>Sportshack</h1>
-                <h1>Supplement Depot</h1>
+                <h1>SPORTSHACK</h1>
+                <h1>SUPPLEMENT DEPOT</h1>
             </section>
 
             <section className="address-and-number">
+            <a  href="https://www.google.com/maps/place/Sportshack+Supplement+Depot+%26+Smoothie+Cafe/@30.2116361,-92.029948,17z/data=!4m5!3m4!1s0x86249c5ff14345d3:0x9db00476ff1ed85a!8m2!3d30.2116315!4d-92.0277593"
+                target="_blank"
+                rel='noopener noreferrer'    
+            >
                 <p>2002 Johnston Street</p>
                 <p>Lafayette, LA 70503</p>
-                <p>(337) 889-3680</p>
+            </a>
+                <a href="tel:337-456-7890" className="num-link"><p>(337) 889-3680</p></a>
             </section>
 
             <section className="hours">

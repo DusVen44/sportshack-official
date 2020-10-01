@@ -5,21 +5,24 @@
 }
 
 .body-comp-pics {
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 .body-pic {
-    width: 90%;
+    width: 60%;
 }
 
 @media screen and (min-width: 800px) {
     .body-comp-pics {
+        text-align: center;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
     }
 
     .body-pic {
-        width: 45%;
+        width: 40%;
     }
 }

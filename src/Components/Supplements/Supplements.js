@@ -22,8 +22,8 @@ export default function Supplements() {
             <section className="supplements-heading">
                 <h1>Vitamins & Supplements</h1>
                 <h3>
-                    Boost Immune System - Bulk Up - Slim Down - Burn Fat - Get Stronger - 
-                    Increase Testosterone - Enhance Endurance
+                    Boost Your Immune System - Increase Energy - Bulk Up - Slim Down - Burn Fat - 
+                    Get Stronger - Increase Testosterone
                 </h3>
             </section>
 
