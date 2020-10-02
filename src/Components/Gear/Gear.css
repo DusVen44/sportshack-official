@@ -57,7 +57,7 @@
     width: 45%;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .gear-heading {
         font-size: 35px;
     }

@@ -76,14 +76,6 @@ li {
 }
 
 @media screen and (min-width: 800px) {
-    .smoothies-page-heading {
-        font-size: 35px;
-    }
-
-    .smoothies-intro-box {
-        font-size: 20px;
-    }
-
     .smoothies20-list {
         display: flex;
         flex-wrap: wrap;
@@ -92,5 +84,15 @@ li {
     .smoothies32-list {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .smoothies-page-heading {
+        font-size: 35px;
+    }
+
+    .smoothies-intro-box {
+        font-size: 20px;
     }
 }

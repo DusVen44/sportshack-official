@@ -53,18 +53,6 @@
 }
 
 @media screen and (min-width: 800px) {
-    .body-comp-heading {
-        font-size: 30px;
-    }
-
-    .body-subheading {
-        font-size: 22px;
-    }
-
-    .body-comp-intro-box {
-        font-size: 20px;
-    }
-
     .body-comp-pics {
         text-align: center;
         flex-direction: row;
@@ -79,5 +67,19 @@
     .results:hover {
         transition: 1s;
         transform: scale(2);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .body-comp-heading {
+        font-size: 30px;
+    }
+
+    .body-subheading {
+        font-size: 22px;
+    }
+
+    .body-comp-intro-box {
+        font-size: 20px;
     }
 }

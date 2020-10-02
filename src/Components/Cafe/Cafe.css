@@ -27,7 +27,7 @@
 }
 
 .cafe-intro2 {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .cafe-page a {
@@ -70,6 +70,12 @@
     .cafe-heading {
         font-size: 35px;
     }
+}
+
+@media screen and (min-width: 1000px) {
+    .category {
+        width: 30%;
+    }
 
     .cafe-intro-box {
         font-size: 18px;
@@ -77,12 +83,6 @@
 
     .cafe-page a {
         font-size: 20px;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    .category {
-        width: 30%;
     }
 
     .ingredient-category {
