@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 import InfoBox from '../InfoBox/InfoBox';
 import Map from '../Map/Map';
-import { college, elliptical, scale, trainer, homewrap, homesmoothie } from '../../Stores/homepageSTORE';
+import { college, elliptical, scale, trainer, homewrap, homesmoothie, fruitHeart, curl, manTrainer } from '../../Stores/homepageSTORE';
 
 export default function Home() {
     return (
@@ -26,6 +26,7 @@ export default function Home() {
                 <div className="pic-and-answer-box">
                     <img src={college} alt="graduation cap"></img>
                     <h3 className="answer">College Students</h3>
+                    <img src={college} alt="graduation cap"></img>
                 </div>
                 <p className="why">We are proud supporters of Ragin Cajun athletics, and our store is located
                     just a few blocks from UL's campus on the bike path. Come by before class to pick up a <a href='/smoothies'>
@@ -35,6 +36,7 @@ export default function Home() {
                 <div className="pic-and-answer-box">
                     <img src={scale} alt="scale and fruits"></img>
                     <h3 className="answer">Anyone Wanting to Lose Weight</h3>
+                    <img src={fruitHeart} alt="scale and fruits"></img>
                 </div>
                 <p className="why">Don't allow untrained, unqualified, and uninterested people to give you bad advice on 
                     becoming a better, healthier you. Our staff members are devoted to health and fitness, and all 
@@ -45,6 +47,7 @@ export default function Home() {
                 <div className="pic-and-answer-box">
                     <img src={elliptical} alt="elliptical"></img>
                     <h3 className="answer">Health Nuts</h3>
+                    <img src={curl} alt="elliptical"></img>
                 </div>
                 <p className="why">We have every <a href='/vitamins-and-supplements'>vitamin and supplement</a> that
                     you can imagine. Come see our vast inventory of products that will give you the extra edge in your 
@@ -54,6 +57,7 @@ export default function Home() {
                 <div className="pic-and-answer-box">
                     <img src={trainer} alt="personal trainer"></img>
                     <h3 className="answer">Personal Trainers</h3>
+                    <img src={manTrainer} alt="personal trainer"></img>
                 </div>
                 <p className="why">We have exactly what you need to build the perfect diet and training program for your 
                     clients. Our <a href='/body-comp-analyzer'>Body Comp Analyzer</a> will provide you with a complete 

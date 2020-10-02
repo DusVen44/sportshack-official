@@ -6,6 +6,7 @@
 }
 
 .body-comp-heading {
+    font-family: 'Eczar', serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -52,6 +53,18 @@
 }
 
 @media screen and (min-width: 800px) {
+    .body-comp-heading {
+        font-size: 30px;
+    }
+
+    .body-subheading {
+        font-size: 22px;
+    }
+
+    .body-comp-intro-box {
+        font-size: 20px;
+    }
+
     .body-comp-pics {
         text-align: center;
         flex-direction: row;
@@ -61,5 +74,10 @@
 
     .body-pic {
         width: 40%;
+    }
+
+    .results:hover {
+        transition: 1s;
+        transform: scale(2);
     }
 }

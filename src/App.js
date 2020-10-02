@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Media
-        query="(max-width: 999px)"
+        query="(max-width: 1299px)"
         render={() =>
         (
           <Burger />
@@ -19,7 +19,7 @@ function App() {
       />
       <Header />
       <Media 
-        query="(min-width: 1000px)"
+        query="(min-width: 1300px)"
         render={() =>
         (
           <Menu />
@@ -27,7 +27,7 @@ function App() {
       />
       <MainContainer />
       <Media 
-        query="(min-width: 1000px)"
+        query="(min-width: 1300px)"
         render={() =>
         (
           <Menu />

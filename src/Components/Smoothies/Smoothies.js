@@ -26,6 +26,19 @@ export default function Smoothies() {
                     order, we can customize your choice so it fits your nutrition needs. View our flavors and nutrition
                     facts below to find your new favorite smoothie in Lafayette.
                 </p>
+
+                <p className="smoothies-intro3">
+                    Sportshack now features Girl Scout Cookie Smoothies in these delicious flavors!
+                </p>
+
+                <ul className="girl-scout-flavors">
+                    <li>Do-Si-Do</li>
+                    <li>Samoas</li>
+                    <li>Savanna Smiles</li>
+                    <li>S'mores</li>
+                    <li>Tag-a-Long</li>
+                    <li>Thin Mint</li>
+                </ul>
             </section>
 
             <section className="smoothie-sizes">

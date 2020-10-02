@@ -6,7 +6,7 @@ export default function Gear() {
     return (
         <div className="gear-page">
             <section className="gear-heading">
-                <h1>Apparel & Accessories</h1>
+                <h1 classname="gear-title">Apparel & Accessories</h1>
                 <h3 className="gear-subheading">Shirts - Shaker Bottles - Food Containers</h3>
             </section>
 

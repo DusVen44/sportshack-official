@@ -18,7 +18,12 @@ export default function Protein() {
                     The benefits of a high protein diet are well-documented, so it's no secret why most people choose
                     protein powder as their first supplement. If you want more muscle, less fat, a quicker recovery time,
                     or need to hit your macros more efficiently, protein powder is a must-have for your diet. Sportshack 
-                    carries whey protein isolates, protein blends, mass gainers, and plant-based vegan protein.
+                    carries whey protein isolates, protein blends, mass gainers, and plant-based vegan protein. 
+                </p>
+
+                <p className="protein-intro2">
+                    Below is a gallery of featured protein options. Come by the store to see all of our protein powders 
+                    and discover which one is the best for you.
                 </p>
             </section>
 

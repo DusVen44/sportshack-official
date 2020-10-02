@@ -4,3 +4,6 @@ export const scale = require('../images/scale.png');
 export const trainer = require('../images/trainer.png');
 export const homewrap = require('../images/homewrap.png');
 export const homesmoothie = require('../images/homesmoothie.png');
+export const fruitHeart = require('../images/fruit-heart.png');
+export const curl = require('../images/curl.png');
+export const manTrainer = require('../images/man-trainer.png');

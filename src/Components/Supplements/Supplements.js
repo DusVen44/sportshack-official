@@ -35,6 +35,11 @@ export default function Supplements() {
                     staff members are highly trained on every item we sell, and their knowledge will lead you to 
                     the perfect product that fits your needs.
                 </p>
+
+                <p className="supplements-intro2">
+                    Below is a gallery of featured products. Come by the store to see our whole selection and 
+                    discover which vitamins and supplements fit your goals.
+                </p>
             </section>
 
             <section className="supplements-gallery">

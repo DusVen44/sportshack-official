@@ -7,13 +7,13 @@ export default function Cafe() {
         <div className="cafe-page">
             <section className="cafe-heading">
                 <h1>Fit Grill Cafe</h1>
-                <h3>Build your Panini or Wrap</h3>
+                <h3>Custom Wraps</h3>
             </section>
 
             <section className="cafe-intro-box">
                 <p className="cafe-intro1">
                     Starting at only $5.99, you can create your own panini or wrap. Choose your bread, meat, cheese,
-                    veggies, and sauce. Your food will be freshly-made by our team member and served to your quickly. 
+                    veggies, and sauce. Your food will be freshly-made by a team member and served to you quickly. 
                     Breadless options are available.
                 </p>
                 

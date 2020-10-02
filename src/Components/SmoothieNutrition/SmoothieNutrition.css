@@ -8,6 +8,8 @@
 }
 
 .smoothie-name {
+    font-family: 'Eczar', serif;
+    font-size: 25px;
     text-align: center;
     color: white;
     text-shadow: 0px 3px 1px black;
@@ -15,10 +17,11 @@
 
 .fact {
     border-bottom: 1px solid black;
+    padding-left: 2%;
 }
 
 .small-fact {
-    padding-left: 8%;
+    padding-left: 10%;
 }
 
 @media screen and (min-width: 800px) {

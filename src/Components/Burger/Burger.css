@@ -3,7 +3,7 @@
     position: absolute;
     width: 30px;
     height: 25px;
-    left: 10px;
+    left: 3%;
     top: 10px;
 }
    
@@ -50,6 +50,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Individual item */
 .bm-item {
+    font-family: 'Eczar', serif;
     display: inline-block;
     padding: 10px;
     font-size: 22px;
