@@ -8,5 +8,5 @@ describe('<GEAR TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Gear /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

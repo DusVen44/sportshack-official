@@ -33,6 +33,7 @@
 }
 
 .protein-cat-title {
+    font-family: 'Eczar', serif;
     font-size: 30px;
     text-align: center;
     color: white;
@@ -72,5 +73,16 @@
 
     .protein-intro-box {
         font-size: 20px;
+    }
+
+    .protein-cat-title {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .protein-cat-title {
+        font-size: 50px;
+        margin: 20px;
     }
 }

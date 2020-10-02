@@ -8,5 +8,5 @@ describe('<CONTACT TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Contact /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

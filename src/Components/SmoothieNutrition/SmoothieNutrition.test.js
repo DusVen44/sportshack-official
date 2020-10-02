@@ -8,5 +8,5 @@ describe('<SMOOTHIE NUTRITION TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><SmoothieNutrition /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

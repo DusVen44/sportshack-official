@@ -8,5 +8,5 @@ describe('<HEADER TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Header /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

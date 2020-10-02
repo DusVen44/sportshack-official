@@ -8,5 +8,5 @@ describe('<PROTEIN TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Protein /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

@@ -8,5 +8,5 @@ describe('<MAP TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Map /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

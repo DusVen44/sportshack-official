@@ -8,5 +8,5 @@ describe('<MAIN CONTAINER TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><MainContainer /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

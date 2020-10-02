@@ -8,5 +8,5 @@ describe('<HOME TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Home /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

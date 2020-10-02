@@ -8,5 +8,5 @@ describe('<BODY COMP ANALYSES TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><BodyComp /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

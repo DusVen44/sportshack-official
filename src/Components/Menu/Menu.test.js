@@ -8,5 +8,5 @@ describe('<MENU TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Menu /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

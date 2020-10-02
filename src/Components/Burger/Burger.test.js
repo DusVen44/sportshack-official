@@ -8,5 +8,5 @@ describe('<BURGER TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Burger /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

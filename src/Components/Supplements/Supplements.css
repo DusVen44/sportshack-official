@@ -34,6 +34,7 @@
 }
 
 .supplement-type {
+    font-family: 'Eczar', serif;
     font-size: 30px;
     text-align: center;
     color: white;
@@ -66,5 +67,16 @@
 
     .supplements-subheading {
         font-size: 24px;
+    }
+
+    .supplement-type {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .supplement-type {
+        font-size: 50px;
+        margin: 20px;
     }
 }

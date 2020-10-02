@@ -8,5 +8,5 @@ describe('<INFOBOX TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><InfoBox /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

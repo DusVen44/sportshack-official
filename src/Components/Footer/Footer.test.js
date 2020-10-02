@@ -8,5 +8,5 @@ describe('<FOOTER TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Footer /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

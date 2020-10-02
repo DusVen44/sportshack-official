@@ -8,5 +8,5 @@ describe('<GALLERY TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Gallery /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

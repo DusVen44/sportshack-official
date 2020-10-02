@@ -8,5 +8,5 @@ describe('<SUPPLEMENTS TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Supplements /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});

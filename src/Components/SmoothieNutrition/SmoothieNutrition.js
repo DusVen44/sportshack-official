@@ -6,7 +6,7 @@ export default function SmoothieNutrition(smoothie) {
         <div className="smoothie">
             <h1 className="smoothie-name">{smoothie.smoothie.flavor}</h1>
             <h3 className="fact">Nutrition Facts</h3>
-            <h4 className="fact">Size: {smoothie.smoothie.size}oz</h4>
+            <h4 className="size fact">Size: {smoothie.smoothie.size}oz</h4>
             <h4 className="fact">Calories: {smoothie.smoothie.calories}</h4>
             <h4 className="fact">Total Fat: {smoothie.smoothie.total_fat}g</h4>
             <p className="small-fact fact">Saturated Fat: {smoothie.smoothie.saturated_fat}g</p>

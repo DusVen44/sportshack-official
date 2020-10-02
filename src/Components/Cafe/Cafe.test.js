@@ -8,5 +8,5 @@ describe('<CAFE TEST />', () => {
     const div = document.createElement('div');
     ReactDOM.render(<BrowserRouter><Cafe /></BrowserRouter>, div);
     ReactDOM.unmountComponentAtNode(div);
-  })
-})
+  });
+});
