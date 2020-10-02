@@ -7,6 +7,7 @@ On the landing page, a simple introduction explains what the business does and w
 I'm using a self-built server/API to store the nutrition facts for every smoothie. 2 tables are used... 1 for each smoothie size offered.
 API Github - https://github.com/DusVen44/sportshack-api.git
 
+![sportshack-screenshot](https://user-images.githubusercontent.com/62815629/94956553-f9b45680-04b1-11eb-9e6e-c86be7f00c88.png)
 
 
 Built with React - CSS - JSX - Node - Express - PostreSQL
