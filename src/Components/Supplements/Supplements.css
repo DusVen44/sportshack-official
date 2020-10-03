@@ -23,13 +23,19 @@
     text-align: center;
 }
 
+.supplements-intro-box {
+    font-size: 16px;
+}
+
 .supplements-intro1 {
     text-align: center;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 .supplements-intro2 {
     text-align: center;
+    font-size: 16px;
     margin-bottom: 40px;
 }
 
