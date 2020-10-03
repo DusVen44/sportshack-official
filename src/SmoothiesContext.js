@@ -6,6 +6,7 @@ export const SmoothiesContext = createContext();
 const SmoothiesContextProvider = (props) => {
     const [smoothies20, setSmoothies20 ] = useState([]);
     const [smoothies32, setSmoothies32 ] = useState([]);
+    // const [loading, setLoading] = useState(false);
 
     useLayoutEffect(() => {
       Promise.all([

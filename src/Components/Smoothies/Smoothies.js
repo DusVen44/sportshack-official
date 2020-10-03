@@ -5,7 +5,6 @@ import SmoothieNutrition from'../SmoothieNutrition/SmoothieNutrition';
 
 export default function Smoothies() {
     const { smoothies20, smoothies32 } = useContext(SmoothiesContext);
-    // console.log(smoothies32);
     return (
         <div className="smoothies-page">
             <section className="smoothies-page-heading">
@@ -48,7 +47,6 @@ export default function Smoothies() {
 
             <section className="smoothies-section">
                 <div className="smoothies20-list">
-                    {/* <h1 className="smoothie-heading">20oz Smoothies</h1> */}
                     {smoothies20.smoothies20 && smoothies20.smoothies20.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
@@ -57,7 +55,6 @@ export default function Smoothies() {
                 </div>
 
                 <div className="smoothies32-list">
-                    {/* <h1 className="smoothie-heading">32oz Smoothies</h1> */}
                     {smoothies32.smoothies32 && smoothies32.smoothies32.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>

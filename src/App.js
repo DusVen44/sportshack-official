@@ -6,6 +6,7 @@ import MainContainer from './Components/MainContainer/MainContainer';
 import Footer from './Components/Footer/Footer';
 import Media from 'react-media';
 import Burger from './Components/Burger/Burger';
+import { SmoothiesContext } from './SmoothiesContext';
 
 function App() {
   return (
