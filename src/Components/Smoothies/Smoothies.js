@@ -4,9 +4,11 @@ import { SmoothiesContext } from '../../SmoothiesContext';
 import SmoothieNutrition from'../SmoothieNutrition/SmoothieNutrition';
 
 export default function Smoothies() {
+    //DECLARE VARIABLES FOR 20oz and 32oz SMOOTHIES
     const { smoothies20, smoothies32 } = useContext(SmoothiesContext);
     return (
         <div className="smoothies-page">
+        {/* HEADING AND INFO */}
             <section className="smoothies-page-heading">
                 <h1>Smoothies</h1>
                 <h3>Refuel After Your Workout</h3>
@@ -30,6 +32,7 @@ export default function Smoothies() {
                     Sportshack now features Girl Scout Cookie Smoothies in these delicious flavors!
                 </p>
 
+            {/* GIRL SCOUT COOKIE FLAVORS */}
                 <ul className="girl-scout-flavors">
                     <li>Do-Si-Do</li>
                     <li>Samoas</li>
@@ -40,28 +43,30 @@ export default function Smoothies() {
                 </ul>
             </section>
 
+        {/* SMOOTHIE SIZES */}
             <section className="smoothie-sizes">
                 <h1>20oz Smoothies</h1>
                 <h1>32oz Smoothies</h1>
             </section>
 
+        {/* NUTRITION LABELS SECTION */}
             <section className="smoothies-section">
                 <div className="smoothies20-list">
                     {smoothies20.smoothies20 && smoothies20.smoothies20.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
-                        )
-                    })}
+                        );
+                    })};
                 </div>
 
                 <div className="smoothies32-list">
                     {smoothies32.smoothies32 && smoothies32.smoothies32.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
-                        )
-                    })}
+                        );
+                    })};
                 </div>
             </section>
         </div>
-    )
-}
+    );
+};

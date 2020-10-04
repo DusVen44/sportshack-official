@@ -5,6 +5,7 @@ import { inbody, sheet } from '../../Stores/bodyCompSTORE';
 export default function BodyComp() {
     return (
         <div className="body-comp-page">
+        {/* HEADING AND INFO     */}
             <section className="body-comp-heading">
                 <h1>Body Composition Analyzer</h1>
                 <h3 className="body-subheading">Discover your starting point - Track your progress - Crush your goals</h3>
@@ -33,11 +34,11 @@ export default function BodyComp() {
                 </p>
             </section>
 
+        {/* PICTURES */}
             <section className="body-comp-pics">
                 <img src={inbody} className="body-pic" alt="inbody 370"></img>
                 <img src={sheet} className="body-pic results" alt="results sheet"></img>
-            </section>
-            
+            </section>   
         </div>
-    )
-}
+    );
+};

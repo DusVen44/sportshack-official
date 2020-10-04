@@ -19,6 +19,7 @@ import { d3, bang, c4 } from '../../Stores/energySTORE';
 export default function Supplements() {
     return (
         <div className="supplements-page">
+        {/* HEADING AND INFO */}
             <section className="supplements-heading">
                 <h1 className="supplements-title">Vitamins & Supplements</h1>
                 <h3 className="supplements-subheading">
@@ -42,6 +43,7 @@ export default function Supplements() {
                 </p>
             </section>
 
+        {/* GALLERIES OF FEATURED PRODUCTS */}
             <section className="supplements-gallery">
                 <div className="supplement-box">
                     <h2 className="supplement-type">
@@ -142,5 +144,5 @@ export default function Supplements() {
                 </div>
             </section>
         </div>
-    )
-}
+    );
+};

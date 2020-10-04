@@ -14,5 +14,5 @@ export default function Menu() {
             <NavLink to='/gear' className="navlink">Apparel & Accessories</NavLink>
             <NavLink to='/contact' className="navlink">Contact</NavLink>
         </div>
-    )
-}
+    );
+};

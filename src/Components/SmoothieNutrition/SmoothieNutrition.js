@@ -4,6 +4,7 @@ import './SmoothieNutrition.css';
 export default function SmoothieNutrition(smoothie) {
     return (
         <div className="smoothie">
+        {/* NUTRION FACTS LABEL */}
             <h1 className="smoothie-name">{smoothie.smoothie.flavor}</h1>
             <h3 className="fact">Nutrition Facts</h3>
             <h4 className="size fact">Size: {smoothie.smoothie.size}oz</h4>
@@ -17,5 +18,5 @@ export default function SmoothieNutrition(smoothie) {
             <p className="small-fact fact">Sugars: {smoothie.smoothie.sugars}g</p>
             <h4 className="fact">Protein: {smoothie.smoothie.protein}g</h4>
         </div>
-    )
-}
+    );
+};

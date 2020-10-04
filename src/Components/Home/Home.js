@@ -7,6 +7,7 @@ import { college, elliptical, scale, trainer, homewrap, homesmoothie, fruitHeart
 export default function Home() {
     return (
         <div className="home-page">
+        {/* HEADING AND INTRO */}
             <h1 className="home-heading">Building Better Bodies Since 2001</h1>
 
             <p className="home-intro">
@@ -18,6 +19,7 @@ export default function Home() {
                 Sportshack guarantess satisfaction on every visit. 
             </p>
 
+        {/* CALL TO ACTION */}
             <h2 className="question">
                 Who should stop by Sportshack?
             </h2>
@@ -84,10 +86,11 @@ export default function Home() {
                 </p>         
             </section>
 
+        {/* INFO BOX AND MAP COMPONENTS */}
             <section className="info-and-map">
                 <InfoBox />
                 <Map />
             </section>
         </div>
-    )
-}
+    );
+};

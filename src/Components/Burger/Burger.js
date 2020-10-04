@@ -14,6 +14,8 @@ export default function Burger() {
             onClose={toggleMenu}
             isOpen={menuOpen}
         >
+
+        {/* MENU LINKS */}
             <Link to='/' className="bm-item" onClick={toggleMenu}>
                 Home
             </Link>
@@ -38,6 +40,7 @@ export default function Burger() {
             <Link to='/contact' className="bm-item" onClick={toggleMenu}>
                 Contact
             </Link>
+            
         </Menu>
-    )
-}
+    );
+};

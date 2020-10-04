@@ -6,6 +6,7 @@ import { fuelx30, hexapro, isoFit, isoSurge, iso100, mutantMass, plantBased, qui
 export default function Protein() {
     return (
         <div className="protein-page">
+        {/* HEADING AND INFO */}
             <section className="protein-heading">
                 <h1 className="protein-title">Protein</h1>
                 <h3 className="protein-subheading">Want to build more muscle? You need more protein.</h3>
@@ -27,6 +28,7 @@ export default function Protein() {
                 </p>
             </section>
 
+        {/* PICTURES OF FEATURED PROTEIN */}
             <section className="protein-galleries">
                 <div className="protein-category">
                     <h1 className="protein-cat-title">Whey Isolate and Blends</h1>
@@ -45,5 +47,5 @@ export default function Protein() {
             </section>
             
         </div>
-    )
-}
+    );
+};

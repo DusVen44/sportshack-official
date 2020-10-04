@@ -27,5 +27,5 @@ export default function MainContainer() {
             <Route path='/gear' component={Gear} />
             <Route path='/contact' component={Contact} /> 
         </div>
-    )
-}
+    );
+};

@@ -5,6 +5,7 @@ import CafePics from '../CafePics/CafePics';
 export default function Cafe() {
     return (
         <div className="cafe-page">
+        {/* HEADING AND INFO */}
             <section className="cafe-heading">
                 <h1>Fit Grill Cafe</h1>
                 <h3>Custom Wraps</h3>
@@ -22,10 +23,12 @@ export default function Cafe() {
                 </p>
             </section>
 
+        {/* PICTURES */}
             <div>
                 <CafePics />
             </div>
 
+        {/* CAFE OPTIONS */}
             <section className="cafe-ingredients">
                 <div className="breads-and-wraps category">
                     <h2 className="ingredient-category">
@@ -91,5 +94,5 @@ export default function Cafe() {
                 </div>
             </section>
         </div>
-    )
-}
+    );
+};

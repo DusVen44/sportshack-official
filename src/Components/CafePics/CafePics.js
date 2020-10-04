@@ -5,11 +5,13 @@ import { cafeRoom, noah, wrap1, wrap2, wrap3, wrap4, wrap5, wrap6, wrap7, wrap8,
 export default function CafePics() {
     return (
         <div className="cafe-pics-box">
+        {/* MAIN PICTURES */}
             <div className="room-and-noah">
                 <img src={cafeRoom} alt="cafe room" className="cafe-main-pic"></img>
                 <img src={noah} alt="noah the chef" className="cafe-main-pic"></img>
             </div>
 
+        {/* WRAP PICTURES */}
             <div className="wraps-box">
                 <img src={wrap1} alt="wrap" className="wrap-pic"></img>
                 <img src={wrap2} alt="wrap" className="wrap-pic"></img>
@@ -22,5 +24,5 @@ export default function CafePics() {
                 <img src={wrap9} alt="wrap" className="wrap-pic"></img>
             </div>
         </div>
-    )
-}
+    );
+};

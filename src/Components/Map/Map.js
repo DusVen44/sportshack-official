@@ -13,5 +13,5 @@ export default function Map() {
                 <img src={map} alt="store location" className="map-image"></img>
             </a>
         </div>
-    )
+    );
 };

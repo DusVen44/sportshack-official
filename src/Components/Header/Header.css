@@ -24,14 +24,15 @@
 }
 
 .address-and-number {
-    color: black;
+    color: white;
+    text-shadow: 0px 1px 3px black;
     font-size: 12px;
     width: fit-content;
     margin-left: 5px;
 }
 
 .address-and-number a:visited {
-    color: black;
+    color: white;
 }
 
 .num-link {
@@ -39,7 +40,8 @@
 }
 
 .hours {
-    color: black;
+    color: white;
+    text-shadow: 0px 1px 3px black;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
