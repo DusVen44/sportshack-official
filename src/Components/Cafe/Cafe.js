@@ -13,7 +13,7 @@ export default function Cafe() {
 
             <section className="cafe-intro-box">
                 <p className="cafe-intro1">
-                    Starting at only $5.99, you can create your own panini or wrap. Choose your bread, meat, cheese,
+                    Create your own panini or wrap. Choose your bread, meat, cheese,
                     veggies, and sauce. Your food will be freshly-made by a team member and served to you quickly. 
                     Breadless options are available.
                 </p>

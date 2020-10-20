@@ -24,7 +24,7 @@ export default function Header() {
 
         {/* HOURS OF OPERATION */}
             <section className="hours">
-                <p>Mon - Fri: 7:00am - 8:00pm</p>
+                <p>Mon - Fri: 8:00am - 7:00pm</p>
                 <p>Saturday: 9:00am - 6:00pm</p>
                 <p>Sunday: CLOSED</p>
             </section>
