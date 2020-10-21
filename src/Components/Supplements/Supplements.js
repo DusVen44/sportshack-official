@@ -11,7 +11,7 @@ import { baf, goliath, mammoth, raf, shredMatrix, tightToneHer, tightTone } from
 import { dim, hydraLean, muscleTest, pctElite, testMd } from '../../Stores/pctSTORE';
 import { adrenolyn, bigNoise, full, noxygen, plasma, pumpocalypse } from '../../Stores/pumpSTORE';
 import { lightsOut, sedative, somatomax } from '../../Stores/sleepSTORE';
-import { cyto, grazed, superGreens } from '../../Stores/greenStore';
+import { cyto, grazed, superGreens } from '../../Stores/greenSTORE';
 import { carbion, karbolyn } from '../../Stores/carbSTORE';
 import { gButter, meat, one, quest } from '../../Stores/foodSTORE';
 import { d3, bang, c4 } from '../../Stores/energySTORE';

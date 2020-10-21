@@ -1,11 +1,10 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './Smoothies.css';
-import { SmoothiesContext } from '../../SmoothiesContext';
 import SmoothieNutrition from'../SmoothieNutrition/SmoothieNutrition';
+import smoothies20 from '../../Stores/smoothies20STORE';
+import smoothies32 from '../../Stores/smoothies32STORE';
 
 export default function Smoothies() {
-    //DECLARE VARIABLES FOR 20oz and 32oz SMOOTHIES
-    const { smoothies20, smoothies32 } = useContext(SmoothiesContext);
     return (
         <div className="smoothies-page">
         {/* HEADING AND INFO */}
@@ -52,19 +51,19 @@ export default function Smoothies() {
         {/* NUTRITION LABELS SECTION */}
             <section className="smoothies-section">
                 <div className="smoothies20-list">
-                    {smoothies20.smoothies20 && smoothies20.smoothies20.map(smoothie => {
+                    {smoothies20.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
-                        );
-                    })};
+                        )
+                    })}
                 </div>
 
                 <div className="smoothies32-list">
-                    {smoothies32.smoothies32 && smoothies32.smoothies32.map(smoothie => {
+                    {smoothies32.map(smoothie => {
                         return (
                             <SmoothieNutrition smoothie={smoothie} key={smoothie.id}/>
-                        );
-                    })};
+                        )
+                    })}
                 </div>
             </section>
         </div>
