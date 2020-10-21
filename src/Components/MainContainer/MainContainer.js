@@ -9,7 +9,6 @@ import Supplements from '../Supplements/Supplements';
 import BodyComp from '../BodyComp/BodyComp';
 import Gear from '../Gear/Gear';
 import Contact from '../Contact/Contact';
-import SmoothiesContextProvider from '../../SmoothiesContext';
 
 
 
@@ -17,9 +16,7 @@ export default function MainContainer() {
     return (
         <div className="main-container">
             <Route exact path='/' component={Home} />
-            <SmoothiesContextProvider>
-                <Route path='/smoothies' component={Smoothies} />
-            </SmoothiesContextProvider>
+            <Route path='/smoothies' component={Smoothies} />
             <Route path='/cafe' component={Cafe} />
             <Route path='/protein' component={Protein} />
             <Route path='/vitamins-and-supplements' component={Supplements} />
