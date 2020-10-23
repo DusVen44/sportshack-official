@@ -14,7 +14,7 @@ export default function BodyComp() {
             <section className="body-comp-intro-box">
                 <p className="body-comp-intro1">
                     Sportshack offers you the latest in cutting edge technology for analyzing your body composition.
-                    The Body Composition Analyzer measures your body and produces and easy-to-read analysis containing 
+                    The Body Composition Analyzer measures your body and produces an easy-to-read analysis containing 
                     your weight, skeletal muscle mass, body fat mass, BMI, body fat percentage, basal metabolic rate, 
                     and segmental lean analysis. The body composition analyzer keeps every analysis stored so you can 
                     keep track of your progress.
