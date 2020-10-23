@@ -16,7 +16,7 @@ export default function Home() {
                 few pounds, our expert staff will guide you through every step. With the lowest prices, most 
                 nutritious and delicious <a href='/smoothies'>Smoothies</a>, the healthiest <a href='/cafe'>Paninis 
                 and Wraps</a>, and the highest quality <a href='/vitamins-and-supplemnts'> Vitamins and Supplements</a>, 
-                Sportshack guarantess satisfaction on every visit. 
+                Sportshack guarantees satisfaction on every visit. 
             </p>
 
         {/* CALL TO ACTION */}

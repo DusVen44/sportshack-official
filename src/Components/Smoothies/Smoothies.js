@@ -16,7 +16,7 @@ export default function Smoothies() {
             <section className="smoothies-intro-box">
                 <p className="smoothies-intro1">
                     We make fresh smoothies all day! After you finish a hard workout, you need to replenish your body with
-                    with the right nutrients. Our smoothies are low in fat & sugar and filled with high-quality protein so 
+                    the right nutrients. Our smoothies are low in fat & sugar and filled with high-quality protein so 
                     you can recover the right way. 
                 </p>
 
