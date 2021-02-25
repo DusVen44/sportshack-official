@@ -26,11 +26,11 @@ export default function InfoBox() {
         {/* HOURS OF OPERATION */}
             <section className="hours-operations">
                 <h3 className="info-title">HOURS OF OPERATION</h3>
-                <p>Monday: 7:00am - 8:00pm</p>
-                <p>Tuesday: 7:00am - 8:00pm</p>
-                <p>Wednesday: 7:00am - 8:00pm</p>
-                <p>Thursday: 7:00am - 8:00pm</p>
-                <p>Friday: 7:00am - 8:00pm</p>
+                <p>Monday: 8:00am - 7:00pm</p>
+                <p>Tuesday: 8:00am - 7:00pm</p>
+                <p>Wednesday: 8:00am - 7:00pm</p>
+                <p>Thursday: 8:00am - 7:00pm</p>
+                <p>Friday: 8:00am - 7:00pm</p>
                 <p>Saturday: 9:00am - 6:00pm</p>
                 <p>Sunday: CLOSED</p>
             </section>

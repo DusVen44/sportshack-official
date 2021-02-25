@@ -11,12 +11,39 @@ export default function Home() {
             <h1 className="home-heading">Building Better Bodies Since 2001</h1>
 
             <p className="home-intro">
-                Sportshack Supplement Depot is Lafayette's #1 nutrition store to help you accomplish all of your 
-                health goals. Whether you're looking to achieve peak athletic performance or just want to lose a 
-                few pounds, our expert staff will guide you through every step. With the lowest prices, most 
-                nutritious and delicious <a href='/smoothies'>Smoothies</a>, the healthiest <a href='/cafe'>Paninis 
-                and Wraps</a>, and the highest quality <a href='/vitamins-and-supplemnts'> Vitamins and Supplements</a>, 
-                Sportshack guarantees satisfaction on every visit. 
+                First launched in 2001, Sportshack Supplement Depot is the result of decorated
+                former bodybuilder Benny Nele's lifelong pursuit of health and fitness. As of 
+                2013, Sportshack found its permanent home at <a  href="https://www.google.com/maps/place/Sportshack+Supplement+Depot+%26+Smoothie+Cafe/@30.2116361,-92.029948,17z/data=!4m5!3m4!1s0x86249c5ff14345d3:0x9db00476ff1ed85a!8m2!3d30.2116315!4d-92.0277593"
+                    target="_blank"
+                    rel='noopener noreferrer'  
+                    className="info-box-address"  
+                >2002 Johnston Street Lafayette, Louisiana</a>. Located just a few short blocks 
+                from UL's campus, we are situated in the heart of the Acadiana community. We serve 
+                the community by providing... 
+            </p>
+
+            <ul>
+                <li>30+ Pre-Workouts</li>
+                <li>20+ Muscle Builders and Fat Burners</li>
+                <li>Isolate, Casein, Whey Blends, and Plant Protein Powders</li>
+                <li>Energy Drinks and Pre-Made Protein Shakes</li>
+                <li>Protein Snacks including Bars, Cookies, Chips, and Spreads</li>
+                <li>Made-to-Order Smoothies with over 30 Flavors</li>
+                <li>Custom Made Wraps, Paninis, Salads, and Bowls</li>
+                <li>and Vitamins, too!</li>
+            </ul>
+
+            <p className="home-intro">
+                Looking for something specific? Call us at <a href="tel:337-456-7890">(337) 889-3680</a> to 
+                speak with a sales associate about your needs. We commit ourselves to hiring a helpful, friendly 
+                staff who provide you with the ultimate consumer experience.
+            </p>
+
+            <p className="home-intro">
+                At Sportshack, we devote ourselves to listening and talking with you about your personal health and 
+                fitness goals. Our customer service is guided by quality information and products, which we use to
+                help make your goals easily achievable. So, stop by the store today and see what the Sportshack 
+                experience is all about!
             </p>
 
         {/* CALL TO ACTION */}
@@ -78,12 +105,7 @@ export default function Home() {
                     for lunch. The quiet, friendly atmosphere is perfect for 1-on-1s and small groups to get together for 
                     delicious <a href='/cafe'>wraps, paninis</a> and <a href='/smoothies'>smoothies</a>.
                 </p>
-
-                <p className="home-outro">
-                    Since 2001, Benny and his Sportshack team have been serving the great people of Acadiana with the best 
-                    smoothies and supplements on the market. We want you to join our family of satisfied customers. Come by 
-                    today and let us help you take your fitness to the next level. 
-                </p>         
+       
             </section>
 
         {/* INFO BOX AND MAP COMPONENTS */}
