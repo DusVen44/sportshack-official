@@ -61,7 +61,6 @@ export default function Cafe() {
                     <p className="ingredient">Ham</p>
                     <p className="ingredient">Low Fat Tuna</p>
                     <p className="ingredient">Grilled Chicken</p>
-                    <p className="ingredient">Roast Beef</p>
                     <p className="ingredient">Light Chicken Salad</p>
                     <p className="ingredient">Fajita Steak</p>
                 </div>
