@@ -11,7 +11,7 @@ import { baf, goliath, mammoth, raf, shredMatrix, tightToneHer, tightTone } from
 import { dim, hydraLean, muscleTest, pctElite, testMd } from '../../Stores/pctSTORE';
 import { adrenolyn, bigNoise, full, noxygen, plasma, pumpocalypse } from '../../Stores/pumpSTORE';
 import { lightsOut, sedative, somatomax } from '../../Stores/sleepSTORE';
-import { cyto, grazed, superGreens } from '../../Stores/greenSTORE';
+// import { cyto, grazed, superGreens } from '../../Stores/greenSTORE';
 import { carbion, karbolyn } from '../../Stores/carbSTORE';
 import { gButter, meat, one, quest } from '../../Stores/foodSTORE';
 import { d3, bang, c4 } from '../../Stores/energySTORE';
@@ -115,12 +115,12 @@ export default function Supplements() {
                     <Gallery pics={[lightsOut, sedative, somatomax]} />
                 </div>
 
-                <div className="supplement-box">
+                {/* <div className="supplement-box">
                     <h2 className="supplement-type">
                         Greens
                     </h2>
                     <Gallery pics={[cyto, grazed, superGreens]} />
-                </div>
+                </div> */}
 
                 <div className="supplement-box">
                     <h2 className="supplement-type">
