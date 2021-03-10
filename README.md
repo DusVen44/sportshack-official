@@ -1,4 +1,4 @@
-Sportshack Supplement Depot - https://sportshack-client.vercel.app/ (will be changed to www.sportshacksupplementdepot.com) - 
+Sportshack Supplement Depot - https://sportshack-front.vercel.app/ (will be changed to www.sportshacksupplementdepot.com) - 
 A website designed for a business in Lafayette, LA.
 
 Why? The original design of the website was cluttered, redundant, and difficult to navigate.
