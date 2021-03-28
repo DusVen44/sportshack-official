@@ -224,6 +224,20 @@ const smoothies32 = [
         protein: 77
     },
     {
+        id: 33,
+        flavor: "Do-Si-Do",
+        size: 32,
+        calories: 553,
+        total_fat: 15,
+        saturated_fat: 3,
+        trans_fat: 0,
+        cholesterol: 31,
+        total_carbohydrates: 27,
+        dietary_fiber: 5,
+        sugars: 5,
+        protein: 72.5
+    },
+    {
         id: 17,
         flavor: "Fudge Brownie",
         size: 32,
@@ -350,8 +364,36 @@ const smoothies32 = [
         protein: 52.5
     },
     {
+        id: 34,
+        flavor: "Samoa",
+        size: 32,
+        calories: 376,
+        total_fat: 1.5,
+        saturated_fat: 0.5,
+        trans_fat: 0,
+        cholesterol: 19.5,
+        total_carbohydrates: 24,
+        dietary_fiber: 1.5,
+        sugars: 23,
+        protein: 66.5
+    },
+    {
+        id: 35,
+        flavor: "Savanna Smiles",
+        size: 32,
+        calories: 477,
+        total_fat: 3,
+        saturated_fat: 0.5,
+        trans_fat: 0,
+        cholesterol: 13,
+        total_carbohydrates: 34.5,
+        dietary_fiber: 2.5,
+        sugars: 8,
+        protein: 78
+    },
+    {
         id: 26,
-        flavor: "Smores",
+        flavor: "S'mores",
         size: 32,
         calories: 535,
         total_fat: 9,
@@ -404,6 +446,34 @@ const smoothies32 = [
         dietary_fiber: 4,
         sugars: 15.5,
         protein: 52.5
+    },
+    {
+        id: 35,
+        flavor: "Tag-a-Long",
+        size: 32,
+        calories: 553,
+        total_fat: 15,
+        saturated_fat: 3,
+        trans_fat: 0,
+        cholesterol: 31,
+        total_carbohydrates: 27,
+        dietary_fiber: 5,
+        sugars: 5,
+        protein: 72.5
+    },
+    {
+        id: 36,
+        flavor: "Thin Mint",
+        size: 32,
+        calories: 442,
+        total_fat: 8,
+        saturated_fat: 2,
+        trans_fat: 0,
+        cholesterol: 31,
+        total_carbohydrates: 24,
+        dietary_fiber: 4,
+        sugars: 4,
+        protein: 68.5
     },
     {
         id: 30,
