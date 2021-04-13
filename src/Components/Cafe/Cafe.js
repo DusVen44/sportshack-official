@@ -57,12 +57,13 @@ export default function Cafe() {
                     <h2 className="ingredient-category">
                         Meats
                     </h2>
-                    <p className="ingredient">Turkey</p>
-                    <p className="ingredient">Ham</p>
-                    <p className="ingredient">Low Fat Tuna</p>
+                    <p className="ingredient">Sliced Turkey</p>
+                    <p className="ingredient">Sliced Ham</p>
+                    <p className="ingredient">Tuna Salad</p>
                     <p className="ingredient">Grilled Chicken</p>
                     <p className="ingredient">Light Chicken Salad</p>
                     <p className="ingredient">Fajita Steak</p>
+                    <p className="ingredient">Egg White</p>
                 </div>
 
                 <div className="veggies category">
@@ -83,7 +84,7 @@ export default function Cafe() {
                     <h2 className="ingredient-category">
                         Sauces
                     </h2>
-                    <p className="ingredient">Light Creamy Pesto</p>
+                    <p className="ingredient">Creamy Pesto</p>
                     <p className="ingredient">Light Mayonnaise</p>
                     <p className="ingredient">Honey Mustard</p>
                     <p className="ingredient">Spicy Ranch</p>
