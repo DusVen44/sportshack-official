@@ -1,7 +1,7 @@
 import React from 'react';
 import Gallery from '../Gallery/Gallery';
 import './Protein.css';
-import { fuelx30, hexapro, isoFit, isoSurge, iso100, mutantMass, plantBased, quickMass, seriousMass, superMass, trutein } from '../../Stores/proteinSTORE';
+import { c620, fuelx30, hexapro, isoFit, isoSurge, iso100, mutantMass, plantBased, quickMass, seriousMass, superMass, trutein } from '../../Stores/proteinSTORE';
 
 export default function Protein() {
     return (
@@ -32,7 +32,7 @@ export default function Protein() {
             <section className="protein-galleries">
                 <div className="protein-category">
                     <h1 className="protein-cat-title">Whey Isolate and Blends</h1>
-                    <Gallery pics={[fuelx30, hexapro, isoFit, isoSurge, iso100, trutein]} />
+                    <Gallery pics={[c620, fuelx30, hexapro, isoFit, isoSurge, iso100, trutein]} />
                 </div>
 
                 <div className="protein-category">

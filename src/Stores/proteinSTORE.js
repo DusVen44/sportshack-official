@@ -1,3 +1,4 @@
+export const c620 = require('../images/protein/C620.png');
 export const fuelx30 = require('../images/protein/fuelx30.png');
 export const hexapro = require('../images/protein/hexapro.png');
 export const isoFit = require('../images/protein/iso-fit.png');
